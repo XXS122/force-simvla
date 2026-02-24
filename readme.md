@@ -6,6 +6,8 @@
 
 A simple and efficient Vision-Language-Action (VLA) model for robot manipulation tasks.
 
+<img width="506" height="796" alt="image" src="https://github.com/user-attachments/assets/7ffb8969-aa4f-4bcc-8c38-33d5e7da4b25" />
+
 ## Installation
 
 ```bash
@@ -59,6 +61,7 @@ bash train_smolvlm_large.sh
 ```bash
 cd evaluation/libero
 ```
+<img width="506" height="1220" alt="image" src="https://github.com/user-attachments/assets/6ee1cd5e-42c5-4cf7-9cce-6dc04c1a215f" />
 
 ## Model Architecture
 
@@ -66,8 +69,6 @@ cd evaluation/libero
 - **Action Transformer**: Configurable depth and width
   - Small: 768 hidden, 12 layers, 12 heads
   - Large: 1024 hidden, 24 layers, 16 heads
-- **Action Space**: 7-dim (delta xyz + delta euler + gripper)
-- **State Space**: 8-dim (ee_pos + axis_angle + gripper_states)
 
 ## Reference
 
