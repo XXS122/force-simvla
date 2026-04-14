@@ -12,10 +12,6 @@ ffmpeg
 dm_control == 1.0.22
 scipy == 1.14.0
 tensorflow-datasets == 4.9.2
--e git+https://github.com/motion-planning/rrt-algorithms.git#egg=rrt-algorithms
-git+https://github.com/huggingface/lerobot@6674e368249472c91382eb54bb8501c94c7f0c56#egg=lerobot
-gdown
-notebook
 openai
 pynput
 colorlog
